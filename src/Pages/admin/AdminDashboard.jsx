@@ -43,7 +43,7 @@ import {
 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../Components/ui/tabs";
 import { Button } from "../../Components/ui/button";
-import { Badge } from "../../components/ui/badge";
+import { Badge } from "../../Components/ui/badge";
 import AdminLayout from "../../layouts/AdminLayout";
 import axios from "axios";
 
