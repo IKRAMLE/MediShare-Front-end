@@ -74,7 +74,7 @@ const MyEquipment = ({
               <div className="h-50 bg-gray-200 relative">
                 {item.image ? (
                   <img
-                    src={`http://localhost:5000${item.image}`}
+                    src={`https://medishare-back-end-production.up.railway.app${item.image}`}
                     alt={item.name}
                     className="w-full h-full object-contain"
                   />
