@@ -10,7 +10,7 @@ import EquipmentForm from "../Components/EquipmentForm";
 import DeleteConfirmationModal from "../Components/DeleteConfirmationModal";
 import AuthenticationRequired from "../Components/AuthenticationRequired";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://medishare-back-end-production.up.railway.app/api";
 
 const Dashboard = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);

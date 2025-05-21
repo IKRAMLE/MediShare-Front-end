@@ -5,7 +5,7 @@ import { Package, Edit, Trash2, Plus, Compass, User, Heart, Settings, MessageSqu
 import DashboardHeader from "../Components/DashboardHeader";
 import Sidebar from "../Components/Sidebar";
 
-const API_URL = 'http://localhost:5000'; 
+const API_URL = 'https://medishare-back-end-production.up.railway.app'; 
 
 const MyEquipmentPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);

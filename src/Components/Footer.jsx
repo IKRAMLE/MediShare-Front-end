@@ -25,7 +25,7 @@ const Footer = () => {
 
     setIsLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/api/newsletter/subscribe', { email });
+      const response = await axios.post('https://medishare-back-end-production.up.railway.app/api/newsletter/subscribe', { email });
       setSubscriptionStatus(response.data.message);
       setEmail(""); // Clear the input after successful subscription
     } catch (error) {

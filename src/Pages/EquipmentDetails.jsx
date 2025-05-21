@@ -4,7 +4,7 @@ import axiosInstance from "../utils/axiosConfig";
 import { ArrowLeft, Package, MapPin, Calendar, Tag, Star, Clock, Shield } from "lucide-react";
 import { motion } from "framer-motion";
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://medishare-back-end-production.up.railway.app';
 
 const EquipmentDetails = () => {
   const { id } = useParams();

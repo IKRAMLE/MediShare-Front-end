@@ -85,17 +85,17 @@ const AdminDashboard = () => {
         activityResponse,
         actionsResponse
       ] = await Promise.all([
-        axios.get('http://localhost:5000/api/dashboard/stats', { headers })
+        axios.get('https://medishare-back-end-production.up.railway.app/api/dashboard/stats', { headers })
           .catch(err => {
             console.error('Error fetching stats:', err);
             return { data: { success: false, error: 'Failed to fetch dashboard stats' } };
           }),
-        axios.get('http://localhost:5000/api/dashboard/recent-activity', { headers })
+        axios.get('https://medishare-back-end-production.up.railway.app/api/dashboard/recent-activity', { headers })
           .catch(err => {
             console.error('Error fetching activity:', err);
             return { data: { success: false, error: 'Failed to fetch recent activity' } };
           }),
-        axios.get('http://localhost:5000/api/dashboard/quick-actions', { headers })
+        axios.get('https://medishare-back-end-production.up.railway.app/api/dashboard/quick-actions', { headers })
           .catch(err => {
             console.error('Error fetching quick actions:', err);
             return { data: { success: false, error: 'Failed to fetch quick actions' } };

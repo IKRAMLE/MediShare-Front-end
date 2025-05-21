@@ -133,7 +133,7 @@ function RentEquip() {
       id: item._id,
       name: item.name,
       price: item.price,
-      image: item.image ? `http://localhost:5000${item.image}` : '/api/placeholder/100/100',
+      image: item.image ? `https://medishare-back-end-production.up.railway.app${item.image}` : '/api/placeholder/100/100',
       days: item.rentalPeriod === 'month' ? 30 : 7,
       rentalPeriod: item.rentalPeriod,
       quantity: 1,
@@ -258,7 +258,7 @@ function RentEquip() {
                     >
                       {item.image ? (
                         <img 
-                          src={`http://localhost:5000${item.image}`} 
+                          src={`https://medishare-back-end-production.up.railway.app${item.image}`} 
                           alt={item.name} 
                           className="w-full h-full object-contain"
                         />

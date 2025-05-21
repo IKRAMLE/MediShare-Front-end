@@ -180,7 +180,7 @@ const Favoris = () => {
                     >
                       {item.image ? (
                         <img
-                          src={`http://localhost:5000${item.image}`}
+                          src={`https://medishare-back-end-production.up.railway.app${item.image}`}
                           alt={item.name}
                           className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
                         />
