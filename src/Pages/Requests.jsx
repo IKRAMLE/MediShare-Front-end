@@ -585,7 +585,7 @@ const Requests = () => {
                               <div className="h-12 w-12 flex-shrink-0 rounded-lg overflow-hidden border border-gray-200">
                                 <img 
                                   className="h-full w-full object-cover" 
-                                  src={`https://medishare-back-end-production.up.railway.app${request.equipmentPhoto}`} 
+                                  src={`http://localhost:5000${request.equipmentPhoto}`} 
                                   alt={request.equipmentName} 
                                   onError={(e) => {
                                     e.target.onerror = null;
@@ -667,7 +667,7 @@ const Requests = () => {
                     <div className="h-40 overflow-hidden">
                       <img 
                         className="w-full h-full object-cover" 
-                        src={`https://medishare-back-end-production.up.railway.app${request.equipmentPhoto}`} 
+                        src={`http://localhost:5000${request.equipmentPhoto}`} 
                         alt={request.equipmentName}
                         onError={(e) => {
                           e.target.onerror = null;
@@ -741,7 +741,7 @@ const Requests = () => {
                 <div className="h-20 w-20 rounded-xl border-4 border-white shadow-lg overflow-hidden">
                   <img 
                     className="h-full w-full object-cover"
-                    src={`https://medishare-back-end-production.up.railway.app${selectedRequest.equipmentPhoto}`}
+                    src={`http://localhost:5000${selectedRequest.equipmentPhoto}`}
                     alt={selectedRequest.equipmentName}
                     onError={(e) => {
                       e.target.onerror = null;
@@ -865,7 +865,7 @@ const Requests = () => {
                           <Paperclip className="h-3 w-3 text-[#07447d]" />
                         </div>
                         <a 
-                          href={`https://medishare-back-end-production.up.railway.app${selectedRequest.personalInfo.cinProof}`} 
+                          href={`http://localhost:5000${selectedRequest.personalInfo.cinProof}`} 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="text-xs text-[#07447d] hover:underline"
@@ -918,7 +918,7 @@ const Requests = () => {
                               <Paperclip className="h-3 w-3 text-[#07447d]" />
                             </div>
                             <a 
-                              href={`https://medishare-back-end-production.up.railway.app${selectedRequest.messageFile}`} 
+                              href={`http://localhost:5000${selectedRequest.messageFile}`} 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="text-xs text-[#07447d] hover:underline"

@@ -787,7 +787,7 @@ const Checkout = () => {
                     {/* Equipment Image */}
                     <div className="relative">
                       <img
-                        src={`https://medishare-back-end-production.up.railway.app${item.image}`}
+                        src={`http://localhost:5000${item.image}`}
                         alt={item.name}
                         className="w-32 h-32 rounded-xl object-cover shadow-md"
                       />

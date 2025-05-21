@@ -20,7 +20,7 @@ const Profile = () => {
 
         try {
           // Fetch user data from the registration endpoint
-          const response = await fetch(`https://medishare-back-end-production.up.railway.app/api/users/register/${parsedUser.id}`, {
+          const response = await fetch(`http://localhost:5000/api/users/register/${parsedUser.id}`, {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://medishare-back-end-production.up.railway.app/api';
+const API_URL = 'http://localhost:5000/api';
 
 // Create axios instance with base URL
 const axiosInstance = axios.create({

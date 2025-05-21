@@ -264,7 +264,7 @@ const Equipment = () => {
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="h-10 w-10 rounded overflow-hidden">
                         <img
-                          src={item.image ? `https://medishare-back-end-production.up.railway.app${item.image}` : "https://via.placeholder.com/300"}
+                          src={item.image ? `http://localhost:5000${item.image}` : "https://via.placeholder.com/300"}
                           alt={item.name}
                           className="h-full w-full object-cover"
                         />
